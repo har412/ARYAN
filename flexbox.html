@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <style>
+        .navbar{
+            width: 100%;
+            height: 70px;
+            background: aqua;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+         
+        }
+        .logo-left{
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+            background: rgb(255, 255, 255);
+            margin-left: 10px;
+        }
+        .nav-link-right{
+            width: 200px;
+            height: 60px;
+            background: green;
+            margin-right: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <!-- <h1>flexbox</h1> -->
+
+    <!-- Display:flex  ==> it is given to the parent tag.
+    flex-direction: row; => it will align the items in horizontal direction.
+    justify-content:space-between => it will add space in between tags and make them stick to left or right.
+                                     justify content works only for horizontal alignment.
+    align-items: space-between => it works for vertical alignment only. -->
+
+
+    <div class="navbar">
+        <div class="logo-left">
+
+        </div>
+        <div class="nav-link-right">
+
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>
