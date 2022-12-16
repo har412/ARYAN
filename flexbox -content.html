@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox-Navbar</title>
+
+    <style>
+        .navbar{
+            width: 100%;
+            height: 70px;
+            background: aqua;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+         
+        }
+        .logo-left{
+            width: 60px;
+            height: 60px;
+           
+            margin-left: 10px;
+        }
+        .nav-link-right{
+           
+            background: green;
+            margin-right: 10px;
+        }
+        .navbar img{
+            width: 126px;
+            height: 60px;
+        }
+        ul{
+            display:flex;
+            flex-direction: row;
+            list-style-type: none;
+            padding: 0px;
+        }
+        li{
+            margin:0px 10px;
+        }
+    </style>
+
+</head>
+<body>
+    
+
+
+    <div class="navbar">
+        <div class="logo-left">
+            <img src="/logo.png" alt="">
+        </div>
+        <div class="nav-link-right">
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Items</li>
+                <li>My Cart</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+<a href="https://www.google.com"> Click  Here</a>
+
+</body>
+</html>
